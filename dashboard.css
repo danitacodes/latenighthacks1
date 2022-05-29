@@ -109,7 +109,7 @@ form {
     transform: translate(-50%, -50%);
 }
 
-.progress-ring_circle {
+.progress-ring-circle {
     transition: 0.5s;
     transform: rotate(-90deg);
     transform-origin: 50% 50%;
@@ -132,4 +132,8 @@ form {
     75% {
         transform: rotate(-90deg) scale(0.8);
     }
+}
+
+#quote {
+    float: right;
 }
