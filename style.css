@@ -1,5 +1,58 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald:wght@300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html { 
+    background: #f55600;
+}
+
+section {
+    background: #f55600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    padding: 250px 0;
+}
+/*Main*/
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    text-align: center;
+}
+span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+section button {
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    background-color: #ecbf2f;
+    font-family: 'Oswald';
+    color: black;
+}
+
+section button:hover {
+    background-color: #f55600;
+    border: 3px solid black;
+    text-decoration: none;
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Dashboard*/

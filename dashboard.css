@@ -1,0 +1,135 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background: #f55600;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    text-align: center;
+}
+span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 100px 50px;
+    display: flex;
+    position: relative;
+}
+
+input {
+    transition: 0.5s ease-in-out;
+    margin: 15px 0;
+    font-size: 15px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.11);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    margin: 40px 0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    font-size: 10px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+form {
+    background: #92B4EC;
+    width: 100%;
+    margin: 5px 0;
+    color: white;
+}
+
+.start {
+    background: #E26A2C;
+    color: white;
+}
+
+.break {
+    background: #FF8243;
+}
+
+.reset {
+    background: #FF8243;
+    color: white;
+}
+
+.pause {
+    background: #FFD07F;
+}
+
+.resume {
+    background: #FFD07F;
+    color: white;
+}
+
+.clock {
+    padding: 3px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 50%;
+    font-size: 20px;
+}
+
+.progress-ring {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress-ring_circle {
+    transition: 0.5s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke: #92B4EC;
+}
+
+.danger {
+    stroke: red;
+    animation: pulse 0.9s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%
+    100% {
+        transform: rotate(-90deg) scale(1);
+    }
+    50% {
+        transform: rotate(-90deg) scale (1.05);
+    }
+    75% {
+        transform: rotate(-90deg) scale(0.8);
+    }
+}
